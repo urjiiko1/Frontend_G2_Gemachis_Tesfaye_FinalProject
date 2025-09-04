@@ -20,6 +20,7 @@
   "homepage": "https://github.com/ISHUBTEAM/Frontend_G2_Gemachis_Tesfaye_FinalProject#readme",
   "dependencies": {
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2"
   }
 }
