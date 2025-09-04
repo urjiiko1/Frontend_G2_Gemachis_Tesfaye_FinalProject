@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/ISHUBTEAM/Frontend_G2_Gemachis_Tesfaye_FinalProject/issues"
   },
-  "homepage": "https://github.com/ISHUBTEAM/Frontend_G2_Gemachis_Tesfaye_FinalProject#readme"
+  "homepage": "https://github.com/ISHUBTEAM/Frontend_G2_Gemachis_Tesfaye_FinalProject#readme",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
 }
