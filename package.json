@@ -1,0 +1,21 @@
+{
+  "name": "frontend_g2_gemachis_tesfaye_finalproject",
+  "version": "1.0.0",
+  "description": "👋 Welcome to your final project repository!  \r Please read the instructions carefully before starting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISHUBTEAM/Frontend_G2_Gemachis_Tesfaye_FinalProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ISHUBTEAM/Frontend_G2_Gemachis_Tesfaye_FinalProject/issues"
+  },
+  "homepage": "https://github.com/ISHUBTEAM/Frontend_G2_Gemachis_Tesfaye_FinalProject#readme"
+}
