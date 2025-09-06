@@ -1,12 +1,31 @@
-# React + Vite
+# Summer Bootcamp 2025 – Final Project (Frontend Track)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+👋 Welcome to your final project repository!  
+Please read the instructions carefully before starting.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📘 Student Info
+- **Full Name:** [Your Full Name]
+- **Group:** G[1/2/3/...]
+- **Track:** Frontend
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Instructions
+1. Add all your source code inside the `src/` folder.
+2. Update this `README.md` with:
+   - Project title
+   - Short description
+   - Features
+   - How to run your project (setup + commands)
+   - Screenshots or demo link (if any)
+
+---
+
+## ✅ Submission Rules
+- Push your project code to this repository.  
+- Mark your final version by tagging:
+  ```bash
+  git tag v1.0-final
+  git push origin v1.0-final

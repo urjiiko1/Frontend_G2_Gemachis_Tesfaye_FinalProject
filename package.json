@@ -1,17 +1,32 @@
 {
-  "name": "my-app",
+  "name": "frontend_g2_gemachis_tesfaye_finalproject",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "👋 Welcome to your final project repository! Please read the instructions carefully before starting.",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISHUBTEAM/Frontend_G2_Gemachis_Tesfaye_FinalProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ISHUBTEAM/Frontend_G2_Gemachis_Tesfaye_FinalProject/issues"
+  },
+  "homepage": "https://github.com/ISHUBTEAM/Frontend_G2_Gemachis_Tesfaye_FinalProject#readme",
   "dependencies": {
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
