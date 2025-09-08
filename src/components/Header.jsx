@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Header() {
+const Header = () => {
   return (
     <header className="text-center py-8">
       <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-800 tracking-tight">
@@ -11,4 +11,6 @@ export default function Header() {
       </p>
     </header>
   );
-}
+};
+
+export default Header;

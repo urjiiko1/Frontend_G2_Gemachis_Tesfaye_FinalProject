@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SearchBar({ searchQuery, setSearchQuery }) {
+const SearchBar = ({ searchQuery, setSearchQuery }) => {
   return (
     <section className="container mx-auto max-w-xl mb-8">
       <div className="flex items-center space-x-2">
@@ -14,4 +14,6 @@ export default function SearchBar({ searchQuery, setSearchQuery }) {
       </div>
     </section>
   );
-}
+};
+
+export default SearchBar;

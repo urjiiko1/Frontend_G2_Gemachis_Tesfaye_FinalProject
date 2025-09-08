@@ -1,14 +1,13 @@
-export const FetchFlights = async (apikey) =>{
-    const apiUrl =`https://api.aviationstack.com/v1/flights?access_key=${apiKey}`;
+export const fetchFlights = async () => {
+  const apiKey = '78246549749afa42cfd8cff9a4cd3c33';
+  const apiUrl = `https://api.aviationstack.com/v1/flights?access_key=${apiKey}`;
 
-    try {
-        const res = await fetch(apiUrl)
-        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
-        const data = await res.json();
-        return data;
-    }
-    catch (error) {
-        console.error("Error fetching flight data:", error);
-        throw error;
-    }
+  const response = await fetch(apiUrl);
+
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+
+  const data = await response.json();
+  return data;
 };
